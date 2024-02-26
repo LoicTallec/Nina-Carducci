@@ -4,21 +4,16 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Nina Carducci photographie, bonjour et bienvenues, prenez place ! Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer."/>
-	<meta name="twitter:card" content="summary_large_image"/>
-	<meta name="twitter:title" content="Nina Carducci Photographie"/>
-	<meta name="twitter:description" content="Photographe passionner, qui aime capturer des moments uniques"/>
-	<meta name="twitter:image" content="./assets/images/nina-1.webp"/
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Nina Carducci Photographie">
+	<meta name="twitter:description" content="Photographe passionner, qui aime capturer des moments uniques">
+	<meta name="twitter:image" content="./assets/images/nina-1.webp">
 
-	<meta property="og:title" content="Nina Carducci Photographie"/>
-	<meta property="og:description" content="Photographe passionner, qui aime capturer des moments uniques"/>
-	<meta property="og:image" content="./assets/images/nina-1.webp"/>
-	<meta property="og:url" content="https://loictallec.github.io/Nina-Carducci/"/>
-	<meta property="og:type" content="website"/>
-
-	<meta itemprop="name" content="Nina Carducci"/>
-	<meta itemprop="description" content="Nina Carducci, Shooting photo, Retouche et album photo disponible sur mon site"/>
-	<meta itemprop="image" content="./assets/images/nina-1.webp"/>
+	<meta property="og:title" content="Nina Carducci Photographie">
+	<meta property="og:description" content="Photographe passionner, qui aime capturer des moments uniques">
+	<meta property="og:image" content="./assets/images/nina-1.webp">
+	<meta property="og:url" content="https://loictallec.github.io/Nina-Carducci/">
+	<meta property="og:type" content="website">
 
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.min.css">
@@ -27,17 +22,41 @@
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	
 	<title>Nina Carducci</title>
+
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "LocalBusiness",
+			"name": "Nina Carducci",
+			"description": "Nina Carducci photographie, bonjour et bienvenues, prenez place ! Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.",
+			"image": "./assets/images/nina-1.webp",
+			"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"addressRegion": "Nouvelle-Aquitaine",
+			"postalCode": "33200"
+			},
+			"telephone": "05 56 67 78 89",
+			"url": "https://www.votreentreprise.com"
+		}
+		</script>
+
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="./assets/maugallery.js"></script>
+	<script src="./assets/scripts.js"></script>
 </head>
-<body>
+<body itemscope itemtype="http://schema.org/Product">
 <header class="top-header">
 	<h1 class="name">Nina Carducci</h1>
-	<nav class="nav">   
+	<nav class="nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
 		<ul>
-			<li><a href="#about">À propos</a></li>
-			<li><a href="#gallery">Galerie</a></li>
-			<li><a href="#services">Service</a></li>
-			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank" rel="noopener noreferrer"><img src="assets/images/instagram.png" alt="logo instagram"></a></li>
+			<li><a itemprop="url" href="#about">À propos</a></li>
+			<li><a itemprop="url" href="#gallery">Galerie</a></li>
+			<li><a itemprop="url" href="#services">Service</a></li>
+			<li><a itemprop="url" href="#contact">Contact</a></li>
+			<li><a itemprop="url" class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank" rel="noopener noreferrer"><img src="assets/images/instagram.png" alt="logo instagram"></a></li>
 		</ul>
 	</nav>
 </header>
@@ -71,73 +90,73 @@
 	</div>
 </header>
 <main>
-	<div id="about">
+	<div id="about" itemscope itemtype="http://schema.org/Person">
 		<div class="picture left">
-			<img src="./assets/images/nina-1.webp" alt="photo de Nina Carducci">
+			<img itemprop="image" src="./assets/images/nina-1.webp" alt="photo de Nina Carducci">
 		</div>
 		<div id="about-me">
 			<p class="about-me__title">A propos de moi</p>
-			<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
+			<p itemprop="description" class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
 			<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 				C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 		</div>
 	</div>
-	<div id="gallery">
-		<h2 class="title">Portfolio</h2>
+	<div id="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+		<h2 class="title" itemprop="name">Portfolio</h2>
 		<div class="container py-3">
 			<div class="gallery" style="display: none">
-				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="Vue vers le ciel depuis une salle de concert"/>
-				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" alt="Homme en costume de smoking croisant les bras"/>
-				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="Femme de profil souriant à pleine dents"/>
-				<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="Des mains paumes vers le haut s'appretant a accueillir des mains paumes vers le bas"/>
-				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="Homme fermant les yeux pour cause de trop grande lumionosité"/>
-				<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="Couple de jeune marié main dans la main avec le sourir marchant vers l'objectif"/>
-				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" alt="Photo prise a travers un grillage d'une femme qui regarde vers le bas"/>
-				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="Homme sur scène tenant un micro et montrant les quatres doigts de sa main gauche"/>
-				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="Femme devant un ordinateur, très souriante"/>
+				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="Vue vers le ciel depuis une salle de concert">
+				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" alt="Homme en costume de smoking croisant les bras">
+				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="Femme de profil souriant à pleine dents">
+				<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="Des mains paumes vers le haut s'appretant a accueillir des mains paumes vers le bas">
+				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="Homme fermant les yeux pour cause de trop grande lumionosité">
+				<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="Couple de jeune marié main dans la main avec le sourir marchant vers l'objectif">
+				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" alt="Photo prise a travers un grillage d'une femme qui regarde vers le bas">
+				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="Homme sur scène tenant un micro et montrant les quatres doigts de sa main gauche">
+				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="Femme devant un ordinateur, très souriante">
 			</div>
 		</div>
 		<div class="quote">
 			<figure>
 				<blockquote class="quote__text">
-				Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h1>
+				Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.
 				</blockquote>
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
 		</div>
 	</div>
-	<div id="services">
+	<div id="services" itemscope itemtype="http://schema.org/Service">
 		<h2 class="title">Mes services</h2>
 		<div class="container">
 			<div class="service">
 				<div class="service__description">
-					<h3>Shooting photo</h3>
-					<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
+					<h3 itemprop="serviceType">Shooting photo</h3>
+					<p itemprop="description">Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
 				</div>
 				<div class="service__price">
-					<h4>350€/demi journée</h4>
-					<span>Matériel, déplacement inclus</span>
+					<h4 itemprop="price" content="350">350€/demi journée</h4>
+					<span itemprop="description">Matériel, déplacement inclus</span>
 				</div>
 
 			</div>
 			<div class="service">
 				<div class="service__description">
-					<h3>Retouches</h3>
-					<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
+					<h3 itemprop="serviceType">Retouches</h3>
+					<p itemprop="description">Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
 				</div>
 				<div class="service__price">
-					<h4>50€/photo</h4>
-					<span>2 AR par photo</span>
+					<h4 itemprop="price" content="50">50€/photo</h4>
+					<span itemprop="description">2 AR par photo</span>
 				</div>
 			</div>
 			<div class="service">
 				<div class="service__description">
-					<h3>Album photos</h3>
-					<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
+					<h3 itemprop="serviceType">Album photos</h3>
+					<p itemprop="description">Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
 				</div>
 				<div class="service__price">
-					<h4>400€ album A4</h4>
-					<span>30 pages recto/verso</span>
+					<h4 itemprop="price" content="400">400€ album A4</h4>
+					<span itemprop="description">30 pages recto/verso</span>
 				</div>
 			</div>
 		</div>
@@ -157,14 +176,14 @@
 			<div class="form-container">
 				<h3>Une question ? Une demande de devis ?</h3>
 				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-				<form action="" method="post">
+				<form method="post">
 					<label for="nom">Nom</label>
 					<input type="text" name="nom" id="nom">
 					<label for="email">Email</label>
 					<input type="email" name="email" id="email">
 					<label for="message">Message</label>
 					<textarea name="message" id="message"  cols="30" rows="10"></textarea>
-					<input type="submit" value="Envoyer"/>
+					<input type="submit" value="Envoyer">
 				</form>
 			</div>
 			<div class="picture right">
@@ -175,8 +194,5 @@
 </footer>
 </body>
 
-<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="./assets/maugallery.js"></script>
-<script src="./assets/scripts.js"></script>
+
 </html>
