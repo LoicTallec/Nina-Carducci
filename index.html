@@ -36,6 +36,7 @@
 			"name": "Nina Carducci",
 			"description": "Nina Carducci photographie, bonjour et bienvenues, prenez place ! Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer. Je répond a vos appels du lundi au vendredi, de 10h à 19h.",
 			"image": "./assets/images/nina-1.webp",
+
 			"address": {
 			"@type": "PostalAddress",
 			"streetAddress": "68 avenue Alsace-Lorraine",
@@ -43,22 +44,32 @@
 			"addressRegion": "Nouvelle-Aquitaine",
 			"postalCode": "33200"
 			},
+
 			"telephone": "05 56 67 78 89",
 			"url": "https://ninacarducci.github.io/",
-			"openingHoursSpecification": [
-			{
+
+			"openingHoursSpecification": [ 
+				{
 				"@type": "OpeningHoursSpecification",
-				"dayOfWeek": [
-					"Monday",
-					"Tuesday",
-					"Wednesday",
-					"Thursday",
-					"Friday"
-				],
+					"dayOfWeek": [
+						"Monday",
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
+						"Friday"
+					],
 				"opens": "10:00",
 				"closes": "19:00"
-			}
-		]
+				},
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+						"Saturday",
+						"Sunday"
+					],
+					"closes": "closed"
+				}
+			]
 		}
 		</script>
 </head>
